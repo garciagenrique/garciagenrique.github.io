@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+.job-row .spacer {
+  flex: 1 1 auto;
+}
+
 .social-buttons {
   list-style: none;
   padding: 0;

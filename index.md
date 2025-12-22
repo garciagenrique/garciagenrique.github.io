@@ -10,6 +10,7 @@ Below is a summary of my CV.
 
 <h2 class="job-row">
   <span>CERN</span>
+  <span class="spacer"></span>
   <span>10/22–09/25</span>
 </h2>
 
