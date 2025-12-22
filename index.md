@@ -10,7 +10,7 @@ Below is a summary of my CV.
 
 # Working Experience
 
-## CERN 
+<div class="personalised-header-row"><h2>CERN</h2><span>10/22--09/25</span></div>
 ### Fellow on Scientific Computing. IT-LCG-TC Group
 
 - **Coordinator** of the [ESCAPE Virtual Research Environment (VRE)](https://vre-hub.github.io/). 

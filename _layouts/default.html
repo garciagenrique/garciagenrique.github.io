@@ -38,6 +38,28 @@
           <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
         </ul>
         {% endif %}
+
+        {% if site.show_custom_button %}
+        <ul class="social-buttons">
+          <li><a href="{{ site.github_url }}" target="_blank"> 
+            <img src="/assets/icons/github.svg" alt="GitHub logo" />
+            <span>GitHub</span></a>
+          </li>
+          <li><a href="{{ site.linkedin_url }}" target="_blank"> 
+            <img src="/assets/icons/linkedin.svg" alt="LinkedIn logo" />
+            <span>LinkedIn</span></a>
+          </li>
+          <li><a href="{{ site.orcid_url }}" target="_blank"> 
+            <img src="/assets/icons/orcid.svg" alt="ORCID logo" />
+            <span>ORCID</span></a>
+          </li>
+          <li><a href="mailto:{{ site.email }}"> 
+            <img src="/assets/icons/email.svg" alt="Email logo" />
+            <span>Email</span></a>
+          </li>
+        </ul>
+        
+        {% endif %}
       </header>
       <section>
 
@@ -48,7 +70,7 @@
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme derived from <a href="https://github.com/pages-themes/minimal">minimal</a> by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
