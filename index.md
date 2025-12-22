@@ -2,15 +2,16 @@
 layout: default
 ---
 
-Hi, I am Enrique GARCIA.
-
-I am a **Software engineer** with 8 years of experience accross DevOps, Data engineer, technical project management and Data science. I hold a MSc in Astrophysics and a BSc in Physics.
+Hi, I am Enrique Garcia, a **Software engineer** with 8 years of experience accross DevOps, Data engineer, technical project management and Data science. I hold a MSc in Astrophysics and a BSc in Physics.
 
 Below is a summary of my CV. 
 
 # Working Experience
 
-<div class="personalised-header-row"><h2>CERN</h2><span>10/22--09/25</span></div>
+<h2 class="job-row">
+  <span class="job-left">CERN</span>
+  <span class="job-right">10/22–09/25</span>
+</h2>
 ### Fellow on Scientific Computing. IT-LCG-TC Group
 
 - **Coordinator** of the [ESCAPE Virtual Research Environment (VRE)](https://vre-hub.github.io/). 

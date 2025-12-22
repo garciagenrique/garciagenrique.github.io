@@ -1,10 +1,25 @@
-.personalised-header-row {
+.job-row {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  border-bottom: 2px solid #ccc;
-  padding-bottom: 0.5em;
-  margin-bottom: 1em;
+  margin-bottom: 0.2em;
+}
+
+.job-left,
+.job-right {
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+}
+
+.job-left {
+  font-size: 1.5em;      /* tune to visually match your h2 */
+  font-weight: bold;
+}
+
+.job-right {
+  font-size: 1em;
+  color: #666;
 }
 
 .social-buttons {
