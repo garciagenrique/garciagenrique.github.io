@@ -7,11 +7,11 @@ Hi, I am Enrique Garcia, a **Software engineer** with 8 years of experience accr
 Below is a summary of my CV. 
 
 # 👨‍💻 Working Experience
-## CERN
 <p style="text-align: right; font-size: 1.5em;">
   10/2022 – 09/2025
 </p>
 
+## CERN
 ### Fellow on Scientific Computing. IT-LCG-TC Group
 
 - **Coordinator** of the [ESCAPE Virtual Research Environment (VRE)](https://vre-hub.github.io/). 
@@ -23,11 +23,11 @@ Below is a summary of my CV.
 
 Skills & Technologies: **DevOps & Cloud** (Kubernetes, Helm, K9s, Flux, Docker, Singularity, GitHub actions, GitLab CI/CD, OpenStack, ArgoCD), **Software development & Data Analysis** (Python, Bash scripting, git, CVMFS, REST APIs), **Project Management** (Agile, Scrum), **Data Management Frameworks** (Rucio, FTS3, gfal2), **Computing Platforms** (Reana, JupyterHub), **AunthN/Z** (INDIGO IAM, OAuth2.0, OIDC), **Monitoring tools** (Grafana, Kibana, Prometheus), **Relational Databases** (Postgres, MySQL) and **Web technologies** (NodeJS, JavaScript).
 
-## LAPP/CNRS-IN2P3 
-<p style="text-align: right; font-size: 1.5em;">
+<p style="text-align: right; font-size: 1.2em;">
   07/2019 – 09/2022
 </p>
 
+## LAPP/CNRS-IN2P3 
 ### Data and Software Engineer. CTA/HESS High energy gamma-ray astrophysics group.
 
 - **Developer** of data [analysis pipelines](https://github.com/cta-observatory/lstmcpipe) for the LST and CTA collaborations. Contributor to the integration of the [Real Time Analysis pipeline](https://gitlab.in2p3.fr/CTA-LAPP/rta) into the [CTA/ACADA framework](https://www.ctao.org/emission-to-discovery/data-and-computing/).
@@ -38,11 +38,11 @@ Skills & Technologies: **DevOps & Cloud** (Kubernetes, Helm, K9s, Flux, Docker, 
  
  Skills & Technologies: Python, Bash scripting, Docker, SLURM, git, GitHub actions, GitLab CI/CD, Jenkins.
 
-## Altran-Tesella (WCC Madrid) 
 <p style="text-align: right; font-size: 1.5em;">
 10/2018 – 06/2019
 </p>
 
+## Altran-Tesella (WCC Madrid) 
 ### Junior Data Scientist / Consultant.
 
 - Provision of tailored guidance and support for digital transformation within Spanish companies. Implementation of classical Machine Learning (ML) models according to client needs.
