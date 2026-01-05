@@ -7,7 +7,7 @@ Hi, I am Enrique Garcia, a **Software engineer** with 8 years of experience accr
 Below is a summary of my CV. 
 
 # 👨‍💻 Working Experience
-<p style="text-align: right; font-size: 1.5em;">
+<p style="text-align: right; font-size: 1.2em;">
   10/2022 – 09/2025
 </p>
 
@@ -38,7 +38,7 @@ Skills & Technologies: **DevOps & Cloud** (Kubernetes, Helm, K9s, Flux, Docker, 
  
  Skills & Technologies: Python, Bash scripting, Docker, SLURM, git, GitHub actions, GitLab CI/CD, Jenkins.
 
-<p style="text-align: right; font-size: 1.5em;">
+<p style="text-align: right; font-size: 1.2em;">
 10/2018 – 06/2019
 </p>
 
