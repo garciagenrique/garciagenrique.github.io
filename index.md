@@ -8,7 +8,6 @@ Below is a summary of my CV.
 
 # 👨‍💻 Working Experience
 ## CERN
-
 <p style="text-align: right; font-size: 1.5em;">
   10/2022 – 09/2025
 </p>
