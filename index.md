@@ -7,9 +7,14 @@ Hi, I am Enrique Garcia, a **Software engineer** with 8 years of experience accr
 Below is a summary of my CV. 
 
 # 👨‍💻 Working Experience
-<p style="text-align: right; font-size: 1.2em;">
-  10/2022 – 09/2025
+<p style="display: flex; justify-content: space-between; font-size: 1.2em;">
+  <span style="font-size: 1.1em;"><strong>CERN</strong></span>
+  <span>10/2022 – 09/2025</span>
 </p>
+
+<!-- <p style="text-align: right; font-size: 1.2em;">
+  10/2022 – 09/2025
+</p> -->
 
 ## CERN
 ### Fellow on Scientific Computing. IT-LCG-TC Group
