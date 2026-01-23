@@ -41,20 +41,20 @@
 
         {% if site.show_custom_button %}
         <ul class="social-buttons">
-          <li><a href="{{ site.github_url }}" target="_blank"> 
-            <img src="/assets/icons/github.svg" alt="GitHub logo" />
+          <li><a href="{{ site.github_url | default: 'https://github.com/garciagenrique' }}" target="_blank" rel="noopener noreferrer" aria-label="GitHub" > 
+            <img src="{{ "/assets/icons/github.png" | relative_url }}" alt="GitHub logo" width="24" height="24" />
             <span>GitHub</span></a>
           </li>
-          <li><a href="{{ site.linkedin_url }}" target="_blank"> 
-            <img src="/assets/icons/linkedin.svg" alt="LinkedIn logo" />
+          <li><a href="{{ site.linkedin_url }}" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" > 
+            <img src="{{ "/assets/icons/linkedin.webp" | relative_url }}" alt="LinkedIn logo" width="24" height="24" />
             <span>LinkedIn</span></a>
           </li>
-          <li><a href="{{ site.orcid_url }}" target="_blank"> 
-            <img src="/assets/icons/orcid.svg" alt="ORCID logo" />
+          <li><a href="{{ site.orcid_url }}" target="_blank" rel="noopener noreferrer" aria-label="ORCID" > 
+            <img src="{{ "/assets/icons/orcid.png" | relative_url }}" alt="ORCID logo" width="24" height="24" />
             <span>ORCID</span></a>
           </li>
-          <li><a href="mailto:{{ site.email }}"> 
-            <img src="/assets/icons/email.svg" alt="Email logo" />
+          <li><a href="mailto:{{ site.email }}" aria-label="Email"> 
+            <img src="{{ "/assets/icons/email_logo.jpg" | relative_url }}" alt="Email logo" width="24" height="24" />
             <span>Email</span></a>
           </li>
         </ul>

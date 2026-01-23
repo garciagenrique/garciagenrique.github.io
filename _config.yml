@@ -3,7 +3,7 @@ title: Enrique GARCIA
 description: Software Engineer and Technical Project Manager with a background in Astro(Physics).
 show_downloads: false
 google_analytics:
-#show_custom_button: true
+show_custom_button: true
 theme: jekyll-theme-minimal
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
