@@ -6,9 +6,10 @@
 
 .social-buttons {
   list-style: none;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
   justify-content: center;
-  gap: 15px;
+  gap: 15px 20px;
   margin: 20px 0;
   padding: 0;
 }
@@ -18,10 +19,11 @@
 }
 
 .social-buttons a {
-  display: flex;
+  display: inline-flex;
+  white-space: nowrap;
   align-items: center;
   gap: 8px;
-  padding: 12px;
+  padding: 12px 18px;
   background: #f8f8f8;
   border-radius: 50px;
   border: 1px solid #e0e0e0;
