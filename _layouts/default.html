@@ -92,10 +92,10 @@
       function setTheme(theme) {
         if (theme === "dark") {
           root.classList.add("dark-mode");
-          icon.textContent = "☀️";
+          icon.textContent = " ☀ "; 
         } else {
           root.classList.remove("dark-mode");
-          icon.textContent = "🌙";
+          icon.textContent = " ☾ ";
         }
         localStorage.setItem("theme", theme);
       }
