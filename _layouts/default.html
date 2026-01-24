@@ -66,13 +66,50 @@
       {{ content }}
 
       </section>
+      
+      <div class="theme-toggle-wrapper">
+        <button id="theme-toggle" aria-label="Toggle dark mode">
+          <span id="theme-icon">🌙</span>
+        </button>
+      </div>
+
+
       <footer>
-        {% if site.github.is_project_page %}
+        <!-- {% if site.github.is_project_page %} -->
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
+        <!-- {% endif %} -->
         <p><small>Hosted on GitHub Pages &mdash; Theme derived from <a href="https://github.com/pages-themes/minimal">minimal</a> by <a href="https://github.com/orderedlist">orderedlist</a>.</small></p>
       </footer>
+
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    
+    <script>
+      const toggleBtn = document.getElementById("theme-toggle");
+      const icon = document.getElementById("theme-icon");
+      const root = document.documentElement;
+
+      function setTheme(theme) {
+        if (theme === "dark") {
+          root.classList.add("dark-mode");
+          icon.textContent = " ☀ "; 
+        } else {
+          root.classList.remove("dark-mode");
+          icon.textContent = " ☾ ";
+        }
+        localStorage.setItem("theme", theme);
+      }
+
+      const savedTheme = localStorage.getItem("theme");
+      if (savedTheme) {
+        setTheme(savedTheme);
+      }
+
+      toggleBtn.addEventListener("click", () => {
+        const isDark = root.classList.contains("dark-mode");
+        setTheme(isDark ? "light" : "dark");
+      });
+    </script>
+
   </body>
 </html>
