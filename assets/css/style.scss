@@ -47,7 +47,7 @@
 
 .theme-toggle-wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   margin: 30px 0 10px;
 }
 
@@ -61,15 +61,16 @@
   padding: 0;
   background: #f8f8f8;
   border: 2px solid #d0d7de;
-  cursor: pointer;
+//   cursor: pointer;
   transition: all 0.25s ease;
 }
 
-// #theme-toggle:hover {
-//   background: white;
-//   border-color: #0969da;
-//   box-shadow: 0 0 0 3px rgba(9, 105, 218, 0.2);
-// }
+#theme-toggle:hover {
+  background: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  border-color: #ccc;
+}
 
 /* Icon inside */
 #theme-icon {
@@ -162,9 +163,16 @@ html.dark-mode footer {
 html.dark-mode #theme-toggle {
   background: #161b22;
   border: 1px solid #30363d;
-  border-radius: 999px;
   padding: 8px 16px;
   color: #c9d1d9;
+  border-radius: 999px;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.25s ease;
 }
 
 html.dark-mode .theme-toggle-wrapper {
