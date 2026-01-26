@@ -2,7 +2,9 @@
 layout: default
 ---
 
-Hi, I am Enrique Garcia, a **Software engineer** with 8 years of experience accross DevOps & cloud, technical project management data engineer, software development and data science. I hold a MSc in Astrophysics and a BSc in Physics.
+Hi, I am Enrique Garcia, a **Software engineer** with 10 years of experience accross DevOps & cloud, technical project management data engineer, software development and data science. 
+
+I hold a MSc in Astrophysics and a BSc in Physics.
 
 Below is a summary of my CV. 
 
