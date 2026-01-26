@@ -34,7 +34,7 @@ Below is a summary of my CV.
 - **Developer** of data [analysis pipelines](https://github.com/cta-observatory/lstmcpipe) for the LST and CTA collaborations. Contributor to the integration of the [Real Time Analysis pipeline](https://gitlab.in2p3.fr/CTA-LAPP/rta) into the [CTA/ACADA framework](https://www.ctao.org/emission-to-discovery/data-and-computing/).
 - Joint responsibility for the technical implementation of the [ESCAPE](https://projectescape.eu/) (EC-H2020 project) Open-Source Scientific and Service Repository [(OSSR) work-package](https://escape-ossr.gitlab.io/ossr-pages/).
 - **Tutor** in the ESCAPE [2021](https://indico.in2p3.fr/event/20306/page/2707-list-of-tutors) and [2022](https://indico.in2p3.fr/event/26913/page/3012-speakers) summer schools & LST [2022](https://github.com/cta-observatory/2022_01_lstchain_school) LST data analysis school.
-- **Teaching assistantship** at Annecy IUT (Université Savoie-Mont Blanc), teaching hands-on exercises (TPs) during 3 semesters for electrical engineering and industrial computing students.
+- **Teaching assistantship** at Annecy IUT (*Université Savoie-Mont Blanc*), teaching hands-on exercises (TPs) during 3 semesters for electrical engineering and industrial computing students.
 - **Shift operator** for the LST-1 Imaging Atmospheric Cherenkov Telescope (1 month onsite and 1 year remote).
  
 *Skills & Technologies*: Python, Bash scripting, Docker, SLURM, git, GitHub actions, GitLab CI/CD, Jenkins.

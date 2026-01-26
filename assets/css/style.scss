@@ -3,7 +3,7 @@
 
 @import "jekyll-theme-minimal";
 
-
+/* Social buttons layout */
 .social-buttons {
   list-style: none;
   display: grid;
@@ -25,7 +25,7 @@
   gap: 8px;
   padding: 12px 18px;
   background: #f8f8f8;
-  border-radius: 50px;
+  border-radius: 999px;
   border: 1px solid #e0e0e0;
   text-decoration: none;
   color: #333;
@@ -45,70 +45,70 @@
   flex-shrink: 0;
 }
 
+/* Mobile layout */
 @media (max-width: 480px) {
   .social-buttons {
     grid-template-columns: 1fr;
   }
 }
 
-// Dark / light mode support
+/* ========================= */
+/* Manual dark mode (HTML class) */
+/* ========================= */
 
-.dark-mode {
-  body {
-    background: #0d1117;
-    color: #c9d1d9;
-  }
-
-  a {
-    color: #58a6ff;
-  }
-
-  header h1 a {
-    color: #f0f6fc;
-  }
-
-  .wrapper {
-    background: #0d1117;
-  }
-
-  .social-buttons a {
-    background: #161b22;
-    border-color: #30363d;
-    color: #c9d1d9;
-    box-shadow: none;
-  }
-
-  .social-buttons a:hover {
-    background: #21262d;
-    border-color: #58a6ff;
-    box-shadow: 0 0 0 1px rgba(88, 166, 255, 0.4);
-  }
-
-  footer {
-    color: #8b949e;
-  }
-
-  // toggle button styles
-
-  .theme-toggle-wrapper {
-    display: flex;
-    justify-content: center;
-    margin: 60px 0 20px;
-    padding-top: 20px;
-    border-top: 1px solid #e0e0e0;
+html.dark-mode body {
+  background: #0d1117;
+  color: #c9d1d9;
 }
 
-   #theme-toggle {
-    background: #161b22;
-    border-color: #30363d;
-    color: #c9d1d9;
-  }
-
-  #theme-toggle:hover {
-    background: #21262d;
+html.dark-mode a {
+  color: #58a6ff;
 }
 
+html.dark-mode header h1 a {
+  color: #f0f6fc;
+}
+
+html.dark-mode .wrapper {
+  background: #0d1117;
+}
+
+html.dark-mode .social-buttons a {
+  background: #161b22;
+  border-color: #30363d;
+  color: #c9d1d9;
+  box-shadow: none;
+}
+
+html.dark-mode .social-buttons a:hover {
+  background: #21262d;
+  border-color: #58a6ff;
+  box-shadow: 0 0 0 1px rgba(88, 166, 255, 0.4);
+}
+
+html.dark-mode footer {
+  color: #8b949e;
+}
+
+/* Toggle button */
+html.dark-mode .theme-toggle-wrapper {
+  border-top-color: #30363d;
+}
+
+html.dark-mode #theme-toggle {
+  background: #161b22;
+  border-color: #30363d;
+  color: #c9d1d9;
+}
+
+html.dark-mode #theme-toggle:hover {
+  background: #21262d;
+}
+
+/* ========================= */
 /* System dark mode */
+/* ========================= */
+
 @media (prefers-color-scheme: dark) {
   body {
     background: #0d1117;
@@ -138,6 +138,10 @@
     border-color: #58a6ff;
   }
 
+  footer {
+    color: #8b949e;
+  }
+
   #theme-toggle {
     background: #161b22;
     border-color: #30363d;
@@ -148,5 +152,3 @@
     background: #21262d;
   }
 }
-}
-
