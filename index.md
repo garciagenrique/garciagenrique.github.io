@@ -8,7 +8,7 @@ I hold a MSc in Astrophysics and a BSc in Physics.
 
 Below is a summary of my CV. 
 
-# 👨‍💻 Working Experience
+#  Working Experience
 <p style="display: flex; justify-content: space-between; font-size: 1.2em; margin-bottom: 0.4em;">
   <span style="font-size: 1.3em;"><strong>CERN</strong></span>
   <span>10/2022 – 09/2025</span>
@@ -50,7 +50,7 @@ Below is a summary of my CV.
 - Provision of tailored guidance and support for digital transformation within Spanish companies. Implementation of classical Machine Learning (ML) models according to client needs.
 
 
-# 📑 Relevant publications
+# Relevant publications
 - _Data discovery, analysis and reproducibility in Virtual Research Environments_, **CHEP 2024**, [arXiv](https://arxiv.org/abs/2503.02483)
 - _A Pilot Analysis Facility at CERN, Architecture, Implementation and First Evaluation_, **CHEP 2024**, [Contribution link](https://indico.cern.ch/event/1338689/contributions/6010680/)
 - _The Virtual Research Environment: A multi-science analysis platform_, **CHEP 2023**, [EPJ Web of Conferences](https://www.epj-conferences.org/articles/epjconf/abs/2024/05/epjconf_chep2024_08023/epjconf_chep2024_08023.html)

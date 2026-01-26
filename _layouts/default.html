@@ -42,7 +42,7 @@
         {% if site.show_custom_button %}
         <ul class="social-buttons">
           <li><a href="{{ site.github_url | default: 'https://github.com/garciagenrique' }}" target="_blank" rel="noopener noreferrer" aria-label="GitHub" > 
-            <img src="{{ "/assets/icons/github.png" | relative_url }}" alt="GitHub logo" width="24" height="24" />
+            <img id="github-icon" src="{{ "/assets/icons/github.png" | relative_url }}" alt="GitHub logo" width="24" height="24" />
             <span>GitHub</span></a>
           </li>
           <li><a href="{{ site.linkedin_url }}" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" > 
@@ -54,7 +54,7 @@
             <span>ORCID</span></a>
           </li>
           <li><a href="mailto:{{ site.email }}" aria-label="Email"> 
-            <img src="{{ "/assets/icons/email_logo.webp" | relative_url }}" alt="Email logo" width="24" height="24" />
+            <img id="email-icon" src="{{ "/assets/icons/email_logo.webp" | relative_url }}" alt="Email logo" width="24" height="24" />
             <span>Email</span></a>
           </li>
         </ul>
@@ -69,12 +69,13 @@
 
       <footer>
         <!-- {% if site.github.is_project_page %} -->
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+        <!-- <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p> -->
         <!-- {% endif %} -->
 
         <div class="theme-toggle-wrapper">
           <button id="theme-toggle" aria-label="Toggle dark mode">
-            <span id="theme-icon">☾</span>
+            <img id="theme-icon" src="/assets/icons/dark.png" alt="Theme toggle">
+            <!-- <span id="theme-icon">☾</span> -->
           </button>
         </div>        
 
@@ -90,12 +91,19 @@
       const root = document.documentElement;
 
       function setTheme(theme) {
+        const githubIcon = document.getElementById("github-icon");
+        const emailIcon = document.getElementById("email-icon");
         if (theme === "dark") {
           root.classList.add("dark-mode");
-          icon.textContent = " ☀ "; 
+          icon.src = "/assets/icons/light.png";
+          githubIcon.src = "/assets/icons/github_dark.png";
+          emailIcon.src = "/assets/icons/email_dark.webp";
         } else {
           root.classList.remove("dark-mode");
-          icon.textContent = " ☾ ";
+          // icon.textContent = " ☾ ";
+          icon.src = "/assets/icons/dark.png";    
+          githubIcon.src = "/assets/icons/github_light.png";
+          emailIcon.src = "/assets/icons/email_light.webp";
         }
         localStorage.setItem("theme", theme);
       }

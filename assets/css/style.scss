@@ -74,8 +74,15 @@
 
 /* Icon inside */
 #theme-icon {
-  font-size: 20px;
-  line-height: 1;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  object-fit: contain;
+  display: block;
+  min-width: 20px;
+  min-height: 20px;
+  flex-grow: 0;
+  transition: none; 
 }
 
 
