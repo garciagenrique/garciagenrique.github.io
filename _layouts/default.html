@@ -72,19 +72,26 @@
         <!-- <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p> -->
         <!-- {% endif %} -->
 
-        <div class="theme-toggle-wrapper">
-          <button id="theme-toggle" aria-label="Toggle dark mode">
-            <img id="theme-icon" src="/assets/icons/dark.png" alt="Theme toggle">
-            <!-- <span id="theme-icon">☾</span> -->
-          </button>
-        </div>        
+        <ul class="footer-icons">
+          <li>
+            <button id="theme-toggle" aria-label="Toggle dark mode">
+              <img id="theme-icon" src="/assets/icons/dark.png" alt="Theme toggle">
+            </button>
+          </li>
+          <li>
+            <a id="lang-selector" aria-label="Switch languages">
+              <img id="lang-icon" src="/assets/icons/fr.png" alt="Switch language">
+            </a>
+          </li>
+        </ul>        
 
-        <p><small>Hosted on GitHub Pages &mdash; Theme derived from <a href="https://github.com/pages-themes/minimal">minimal</a> by <a href="https://github.com/orderedlist">orderedlist</a>, maintained by <a href="https://github.com/garciagenrique/garciagenrique.github.io">EnriqueG</a>.</small></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme derived from <a href="https://github.com/pages-themes/minimal">minimal</a> by <a href="https://github.com/orderedlist">orderedlist</a>, adapted by <a href="https://github.com/garciagenrique/garciagenrique.github.io">EnriqueG</a>.</small></p>
       </footer>
 
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
     
+    <!-- Theme toggle script -->
     <script>
       const toggleBtn = document.getElementById("theme-toggle");
       const icon = document.getElementById("theme-icon");
@@ -117,6 +124,26 @@
         const isDark = root.classList.contains("dark-mode");
         setTheme(isDark ? "light" : "dark");
       });
+    </script>
+
+    <!-- Language selector script -->
+    <script>
+      const langSelector = document.getElementById("lang-selector");
+      const langIcon = document.getElementById("lang-icon");
+
+      const isFrench = window.location.pathname.includes("index-fr");
+
+      if (isFrench) {
+        // You're on French page → switch to English
+        langSelector.href = "/index.html";
+        langIcon.src = "/assets/icons/en.svg";
+        langIcon.alt = "Switch to English version";
+      } else {
+        // You're on English page → switch to French
+        langSelector.href = "/index-fr.html";
+        langIcon.src = "/assets/icons/fr.svg";
+        langIcon.alt = "Switch to French version";
+      }
     </script>
 
   </body>

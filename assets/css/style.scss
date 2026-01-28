@@ -14,7 +14,8 @@
   padding: 0;
 }
 
-.social-buttons li {
+.social-buttons li,
+.footer-icons li {
   margin: 0;
 }
 
@@ -34,7 +35,8 @@
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-.social-buttons a:hover {
+.social-buttons a:hover,
+#theme-toggle:hover {
   background: white;
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
@@ -61,18 +63,18 @@
   padding: 0;
   background: #f8f8f8;
   border: 2px solid #d0d7de;
-//   cursor: pointer;
   transition: all 0.25s ease;
 }
 
-#theme-toggle:hover {
-  background: white;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-  border-color: #ccc;
+.footer-icons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 0;
 }
 
-/* Image inside */
 #theme-icon {
   width: 20px;
   height: 20px;
