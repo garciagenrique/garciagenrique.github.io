@@ -13,8 +13,7 @@
     margin: 20px 0;
     padding: 0;
 
-    li,
-    .footer-buttons li {
+    li {
         margin: 0;
     }
 
@@ -33,8 +32,7 @@
         transition: all 0.2s ease;
         box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 
-        &:hover,
-        #theme-toggle:hover {
+        &:hover {
             background: white;
             transform: translateY(-2px);
             box-shadow: 0 4px 12px rgba(0,0,0,0.15);
@@ -90,6 +88,16 @@
   align-items: center;
   margin: 20px;
   padding: 0;
+  list-style: none;
+
+  li {
+    margin: 0;
+  }
+
+  &:hover {
+    background: white;
+  }
+
 }
 
 /* Mobile layout */
