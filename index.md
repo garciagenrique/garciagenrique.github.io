@@ -2,7 +2,7 @@
 layout: default
 ---
 
-Hi, I am Enrique Garcia, a **Software engineer** with 10 years of experience accross DevOps & cloud, technical project management data engineer, software development and data science. 
+Hi, I am Enrique Garcia, a **Software engineer** with 10 years of experience accross DevOps & cloud, technical project management, data engineer, software development and data science. 
 
 I hold a MSc in Astrophysics and a BSc in Physics.
 
@@ -51,8 +51,8 @@ Below is a summary of my CV.
 
 
 # Relevant publications
-- _Data discovery, analysis and reproducibility in Virtual Research Environments_, **CHEP 2024**, [arXiv](https://arxiv.org/abs/2503.02483)
-- _A Pilot Analysis Facility at CERN, Architecture, Implementation and First Evaluation_, **CHEP 2024**, [Contribution link](https://indico.cern.ch/event/1338689/contributions/6010680/)
-- _The Virtual Research Environment: A multi-science analysis platform_, **CHEP 2023**, [EPJ Web of Conferences](https://www.epj-conferences.org/articles/epjconf/abs/2024/05/epjconf_chep2024_08023/epjconf_chep2024_08023.html)
-- _The Science Alert Generation system of the Cherenkov Telescope Array Observatory_, **ICRC 2021**, [arXiv](https://arxiv.org/abs/2108.04470)
-- _Performance of the Large-Sized Telescope prototype of the Cherenkov Telescope Array_, **ICRC 2023**, [arXiv](https://arxiv.org/abs/2309.11315)
+- _Data discovery, analysis and reproducibility in Virtual Research Environments_, **CHEP 2024**, [arXiv](https://arxiv.org/abs/2503.02483).
+- _A Pilot Analysis Facility at CERN, Architecture, Implementation and First Evaluation_, **CHEP 2024**, [Contribution link](https://indico.cern.ch/event/1338689/contributions/6010680/).
+- _The Virtual Research Environment: A multi-science analysis platform_, **CHEP 2023**, [EPJ Web of Conferences](https://www.epj-conferences.org/articles/epjconf/abs/2024/05/epjconf_chep2024_08023/epjconf_chep2024_08023.html).
+- _The Science Alert Generation system of the Cherenkov Telescope Array Observatory_, **ICRC 2021**, [arXiv](https://arxiv.org/abs/2108.04470).
+- _Performance of the Large-Sized Telescope prototype of the Cherenkov Telescope Array_, **ICRC 2023**, [arXiv](https://arxiv.org/abs/2309.11315).
