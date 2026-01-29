@@ -9,8 +9,8 @@ I hold a MSc in Astrophysics and a BSc in Physics.
 Below is a summary of my CV. 
 
 #  Working Experience
-<p style="display: flex; justify-content: space-between; font-size: 1.2em; margin-bottom: 0.4em;">
-  <span style="font-size: 1.3em;"><strong>CERN</strong></span>
+<p style="display: flex; align-items: baseline; justify-content: space-between; font-size: 1.2em; margin-bottom: 0.4em;">
+  <span style="font-size: 1.3em;"><strong>CERN</strong> - Geneva.</span>
   <span>10/2022 – 09/2025</span>
 </p>
 <h3 style="margin-bottom: 0.15em;"> Fellow on Scientific Computing. </h3>
@@ -24,10 +24,10 @@ Below is a summary of my CV.
 - Contributor to the standarisation fo the data management infrastructure for small and medium CERN experiments, and member of the IT Analysis Facility working group.
 - **Supervisior** of 3 CERN Summer Student projects: [REANA](https://github.com/vre-hub/reana-jupyterlab-extension) & [Zenodo](https://github.com/vre-hub/zenodo-jupyterlab-extension) extensions and their [OAuth2.0 implementation](https://zenodo.org/records/17053241).
 
-*Skills & Technologies*: **DevOps & Cloud** (Kubernetes, Helm, K9s, Flux, Docker, Singularity, GitHub actions, GitLab CI/CD, OpenStack, ArgoCD), **Software development & Data Analysis** (Python, Bash scripting, git, CVMFS, REST APIs), **Project Management** (Agile, Scrum), **Data Management Frameworks** (Rucio, FTS3, gfal2), **Computing Platforms** (Reana, JupyterHub), **AunthN/Z** (INDIGO IAM, OAuth2.0, OIDC), **Monitoring tools** (Grafana, Kibana, Prometheus), **Relational Databases** (Postgres, MySQL) and **Web technologies** (NodeJS, JavaScript).
+**Skills & Technologies used**: **DevOps & Cloud** (Kubernetes, Helm, K9s, Flux, Docker, Singularity, GitHub actions, GitLab CI/CD, OpenStack, ArgoCD), **Software development & Data Analysis** (Python, Bash scripting, git, CVMFS, REST APIs), **Project Management** (Agile, Scrum), **Data Management Frameworks** (Rucio, FTS3, gfal2), **Computing Platforms** (Reana, JupyterHub), **AunthN/Z** (INDIGO IAM, OAuth2.0, OIDC), **Monitoring tools** (Grafana, Kibana, Prometheus), **Relational Databases** (Postgres, MySQL) and **Web technologies** (NodeJS, JavaScript).
 
-<p style="display: flex; justify-content: space-between; font-size: 1.2em; margin-bottom: 0.4em;">
-  <span style="font-size: 1.3em;"><strong>LAPP/CNRS-IN2P3</strong></span>
+<p style="display: flex; align-items: baseline; justify-content: space-between; font-size: 1.2em; margin-bottom: 0.4em;">
+  <span style="font-size: 1.3em;"><strong>LAPP/CNRS-IN2P3</strong> - Annecy.</span>
   <span>07/2019 – 09/2022</span>
 </p>
 <h3 style="margin-bottom: 0.15em;"> Data and Software Engineer. </h3>
@@ -39,15 +39,19 @@ Below is a summary of my CV.
 - **Teaching assistantship** at Annecy IUT (*Université Savoie-Mont Blanc*), teaching hands-on exercises (TPs) during 3 semesters for electrical engineering and industrial computing students.
 - **Shift operator** for the LST-1 Imaging Atmospheric Cherenkov Telescope (1 month onsite and 1 year remote).
  
-*Skills & Technologies*: Python, Bash scripting, Docker, SLURM, git, GitHub actions, GitLab CI/CD, Jenkins.
+**Skills & Technologies used**: **Software development and Data analysis** (Python, Bash scripting, Docker, git, GitHub actions, GitLab CI/CD, Jenkins) and **HPC and distributed computing** (Slurm).
 
-<p style="display: flex; justify-content: space-between; font-size: 1.2em; margin-bottom: 0.4em;">
-  <span style="font-size: 1.3em;"><strong>Altran-Tesella (WCC Madrid)</strong></span>
+<p style="
+  display: flex; align-items: baseline; justify-content: space-between; font-size: 1.2em; margin-bottom: 0.4em;">
+  <span style="font-size: 1.3em;"><strong>Altran-Tesella</strong> - Madrid.</span>
   <span>10/2018 – 06/2019</span>
 </p>
-<h3> Junior Data Scientist / Consultant. </h3>
+<h3 style="margin-bottom: 0.15em;"> Junior Data Scientist / Consultant. </h3>
+<h4 style="margin-top: 0.15em;"> WCC Madrid. </h4>
 
 - Provision of tailored guidance and support for digital transformation within Spanish companies. Implementation of classical Machine Learning (ML) models according to client needs.
+
+**Skills & Technologies used**: **Software development and Data analysis** (Python, Bash scripting, GitHub Actions) and **Classical Machine Learning**.
 
 
 # Relevant publications
