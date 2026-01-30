@@ -101,6 +101,18 @@
   }
 }
 
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.sidebar-subtitle {
+  font-size: 1.1rem;
+  color: #069;
+  margin: 20px 0 10px;
+}
+
 // /* Mobile layout */
 // @media (max-width: 480px) {
 //   .social-buttons {

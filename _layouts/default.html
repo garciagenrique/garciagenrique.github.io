@@ -66,21 +66,30 @@
             <img id="email-icon" src="{{ '/assets/icons/email_logo.webp' | relative_url }}" alt="Email logo" width="24" height="24" />
             <span>Email</span></a>
           </li>
-          <li><a href="https://garciagenrique.github.io/assets/docs/EnriqueGARCIA_CV_EN.pdf" target="_blank" rel="noopener noreferrer" aria-label="Download CV English" > 
-            <img id="download-icon" src="{{ '/assets/icons/download_light.png' | relative_url }}" alt="Download CV English" width="24" height="24" />
+          <li><a href="https://garciagenrique.github.io/assets/docs/EnriqueGARCIA_CV_EN.pdf" target="_blank" rel="noopener noreferrer" aria-label="Open CV English" > 
+            <img id="download-icon" src="{{ '/assets/icons/download_light.png' | relative_url }}" alt="Open CV English" width="24" height="24" />
             <span>CV (En)</span></a>
           </li>
-          <li><a href="https://garciagenrique.github.io/assets/docs/EnriqueGARCIA_CV_FR.pdf" target="_blank" rel="noopener noreferrer" aria-label="Download CV French" > 
-            <img id="download-icon-fr" src="{{ '/assets/icons/download_light_fr.png' | relative_url }}" alt="Download CV French" width="24" height="24" />
+          <li><a href="https://garciagenrique.github.io/assets/docs/EnriqueGARCIA_CV_FR.pdf" target="_blank" rel="noopener noreferrer" aria-label="Open CV French" > 
+            <img id="download-icon-fr" src="{{ '/assets/icons/download_light_fr.png' | relative_url }}" alt="Open CV French" width="24" height="24" />
             <span>CV (Fr)</span></a>
           </li>
         </ul>
         {% endif %}
 
-        <!-- {% if site.show_personal_projects %}
+        {% if site.show_personal_projects %}
+        <h3 class="sidebar-subtitle">Personal projects</h3>
+
         <ul class="social-buttons">
-          
-        </ul> -->
+          <li><a href="{{ '/outdoors-temporal'| relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Outdoors activities" > 
+            <img src="{{ '/assets/icons/mountains.png' | relative_url }}" alt="Mountain logo" width="24" height="24" />
+            <span>Outdoors</span></a>
+          </li>
+          <li><a href="https://github.com/garciagenrique/hetzner-cluster" target="_blank" rel="noopener noreferrer" aria-label="Hetzner cluster" > 
+            <img id="cloud-icon" src="{{ '/assets/icons/cloud_light.png' | relative_url }}" alt="Cloud logo" width="24" height="24" />
+            <span>Cluster</span></a>
+          </li>
+        </ul>
         {% endif %}
       </header>
       <section>
@@ -124,6 +133,7 @@
         const emailIcon = document.getElementById("email-icon");
         const downloadIcon = document.getElementById("download-icon");
         const downloadIconFr = document.getElementById("download-icon-fr");
+        const cloudIcon = document.getElementById("cloud-icon");
         if (theme === "dark") {
           // dark icons are in white
           root.classList.add("dark-mode");
@@ -132,6 +142,7 @@
           emailIcon.src = "/assets/icons/email_dark.webp";
           downloadIcon.src = "/assets/icons/download_dark.png";
           downloadIconFr.src = "/assets/icons/download_dark_fr.png";
+          cloudIcon.src = "/assets/icons/cloud_dark.png";
         } else {
           root.classList.remove("dark-mode");
           // icon.textContent = " ☾ ";
@@ -140,6 +151,7 @@
           emailIcon.src = "/assets/icons/email_light.webp";
           downloadIcon.src = "/assets/icons/download_light.png";
           downloadIconFr.src = "/assets/icons/download_light_fr.png";
+          cloudIcon.src = "/assets/icons/cloud_light.png";
         }
         localStorage.setItem("theme", theme);
       }
