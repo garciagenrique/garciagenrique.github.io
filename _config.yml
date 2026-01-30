@@ -4,6 +4,7 @@ description: Software Engineer and Technical Project Manager with a background i
 show_downloads: false
 google_analytics:
 show_custom_button: true
+show_personal_projects: true
 theme: jekyll-theme-minimal
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:

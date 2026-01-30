@@ -51,23 +51,36 @@
         {% if site.show_custom_button %}
         <ul class="social-buttons">
           <li><a href="{{ site.github_url | default: 'https://github.com/garciagenrique' }}" target="_blank" rel="noopener noreferrer" aria-label="GitHub" > 
-            <img id="github-icon" src="{{ "/assets/icons/github.png" | relative_url }}" alt="GitHub logo" width="24" height="24" />
+            <img id="github-icon" src="{{ '/assets/icons/github.png' | relative_url }}" alt="GitHub logo" width="24" height="24" />
             <span>GitHub</span></a>
           </li>
           <li><a href="{{ site.linkedin_url }}" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" > 
-            <img src="{{ "/assets/icons/linkedin.webp" | relative_url }}" alt="LinkedIn logo" width="24" height="24" />
+            <img src="{{ '/assets/icons/linkedin.webp' | relative_url }}" alt="LinkedIn logo" width="24" height="24" />
             <span>LinkedIn</span></a>
           </li>
           <li><a href="{{ site.orcid_url }}" target="_blank" rel="noopener noreferrer" aria-label="ORCID" > 
-            <img src="{{ "/assets/icons/orcid.png" | relative_url }}" alt="ORCID logo" width="24" height="24" />
+            <img src="{{ '/assets/icons/orcid.png' | relative_url }}" alt="ORCID logo" width="24" height="24" />
             <span>ORCID</span></a>
           </li>
           <li><a href="mailto:{{ site.email }}" aria-label="Email"> 
-            <img id="email-icon" src="{{ "/assets/icons/email_logo.webp" | relative_url }}" alt="Email logo" width="24" height="24" />
+            <img id="email-icon" src="{{ '/assets/icons/email_logo.webp' | relative_url }}" alt="Email logo" width="24" height="24" />
             <span>Email</span></a>
           </li>
+          <li><a href="https://garciagenrique.github.io/assets/docs/EnriqueGARCIA_CV_EN.pdf" target="_blank" rel="noopener noreferrer" aria-label="Download CV English" > 
+            <img id="download-icon" src="{{ '/assets/icons/download_light.png' | relative_url }}" alt="Download CV English" width="24" height="24" />
+            <span>CV (En)</span></a>
+          </li>
+          <li><a href="https://garciagenrique.github.io/assets/docs/EnriqueGARCIA_CV_FR.pdf" target="_blank" rel="noopener noreferrer" aria-label="Download CV French" > 
+            <img id="download-icon-fr" src="{{ '/assets/icons/download_light_fr.png' | relative_url }}" alt="Download CV French" width="24" height="24" />
+            <span>CV (Fr)</span></a>
+          </li>
         </ul>
-        
+        {% endif %}
+
+        <!-- {% if site.show_personal_projects %}
+        <ul class="social-buttons">
+          
+        </ul> -->
         {% endif %}
       </header>
       <section>
@@ -109,17 +122,24 @@
       function setTheme(theme) {
         const githubIcon = document.getElementById("github-icon");
         const emailIcon = document.getElementById("email-icon");
+        const downloadIcon = document.getElementById("download-icon");
+        const downloadIconFr = document.getElementById("download-icon-fr");
         if (theme === "dark") {
+          // dark icons are in white
           root.classList.add("dark-mode");
           icon.src = "/assets/icons/light_2.png";
           githubIcon.src = "/assets/icons/github_dark.png";
           emailIcon.src = "/assets/icons/email_dark.webp";
+          downloadIcon.src = "/assets/icons/download_dark.png";
+          downloadIconFr.src = "/assets/icons/download_dark_fr.png";
         } else {
           root.classList.remove("dark-mode");
           // icon.textContent = " ☾ ";
           icon.src = "/assets/icons/dark.png";    
           githubIcon.src = "/assets/icons/github_light.png";
           emailIcon.src = "/assets/icons/email_light.webp";
+          downloadIcon.src = "/assets/icons/download_light.png";
+          downloadIconFr.src = "/assets/icons/download_light_fr.png";
         }
         localStorage.setItem("theme", theme);
       }
@@ -149,7 +169,7 @@
         langIcon.src = "/assets/icons/en.svg";
         langIcon.alt = "Switch to English";
       } else {
-        // You're on English page → switch to French
+        // English -> French
         langSelector.href = "/index-fr.html";
         langIcon.src = "/assets/icons/fr.svg";
         langIcon.alt = "Switch to French";
