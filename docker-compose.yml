@@ -1,0 +1,32 @@
+version: "3.8"
+
+services:
+  jekyll:
+    image: jekyll/jekyll:4
+    container_name: jekyll-site
+    command: >
+      bash -c "
+      bundle config path vendor/bundle &&
+      bundle install --clean &&
+      bundle exec jekyll serve
+        --host 0.0.0.0
+        --port 4000
+        --livereload
+        --force_polling
+        --config _config.yml,_config.docker.yml
+      "
+    ports:
+      - "4000:4000"
+      - "35729:35729"
+    volumes:
+      - .:/srv/jekyll:cached
+      - bundle_cache:/usr/local/bundle
+      - ./vendor/bundle:/srv/jekyll/vendor/bundle
+    environment:
+      - JEKYLL_ENV=development
+      - BUNDLE_PATH=/usr/local/bundle
+      - BUNDLE_JOBS=4
+      - BUNDLE_RETRY=3
+
+volumes:
+  bundle_cache:
