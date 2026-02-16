@@ -8,7 +8,7 @@ I hold a MSc in Astrophysics and a BSc in Physics.
 
 Below is a summary of my CV. 
 
-#  Working Experience
+#  Work Experience
 <p style="display: flex; align-items: baseline; justify-content: space-between; font-size: 1.2em; margin-bottom: 0.4em;">
   <span style="font-size: 1.3em;"><strong>CERN</strong> - Geneva.</span>
   <span>10/2022 – 09/2025</span>
