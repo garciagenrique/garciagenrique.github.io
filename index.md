@@ -8,7 +8,7 @@ I hold a MSc in Astrophysics and a BSc in Physics.
 
 Below is a summary of my CV. 
 
-#  Work Experience
+<h1 class="h1-dark-modified">Work Experience</h1>
 <p style="display: flex; align-items: baseline; justify-content: space-between; font-size: 1.2em; margin-bottom: 0.4em;">
   <span style="font-size: 1.3em;"><strong>CERN</strong> - Geneva.</span>
   <span>10/2022 – 09/2025</span>
@@ -56,8 +56,7 @@ The platform is deployed on a **Kubernetes** cluster (**OpenStack**), and automa
 
 **Skills & Technologies used**: **Software development and Data analysis** (Python, Bash scripting, GitHub Actions) and **Classical Machine Learning**.
 
-
-# Relevant publications
+<h1 class="h1-dark-modified">Relevant publications</h1>
 - _Data discovery, analysis and reproducibility in Virtual Research Environments_, **CHEP 2024**, [arXiv](https://arxiv.org/abs/2503.02483).
 - _A Pilot Analysis Facility at CERN, Architecture, Implementation and First Evaluation_, **CHEP 2024**, [Contribution link](https://indico.cern.ch/event/1338689/contributions/6010680/).
 - _The Virtual Research Environment: A multi-science analysis platform_, **CHEP 2023**, [EPJ Web of Conferences](https://www.epj-conferences.org/articles/epjconf/abs/2024/05/epjconf_chep2024_08023/epjconf_chep2024_08023.html).
